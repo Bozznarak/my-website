@@ -1,0 +1,41 @@
+svg {
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: calc(50% - (100vw / 2));
+  fill: white;
+  z-index: 1;
+}
+#content {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+#content p {
+  padding: 10%;
+}
+
+.namesDiv {
+  position: absolute;
+  top: calc(50%);
+  color: white;
+  width: 100vw;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  svg {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    fill: white;
+    transform: translate(50%, calc(50vh - 50%));
+    z-index: 1;
+  }
+}
