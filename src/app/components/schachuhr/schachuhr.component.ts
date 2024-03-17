@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { OpenOverlayService } from '../services/open-overlay.service';
 import { TimeOption } from './settings-overlay/settings-overlay.component';
+import { OpenOverlayService } from 'src/app/services/open-overlay.service';
 
 @Component({
   selector: 'app-schachuhr',

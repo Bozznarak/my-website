@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HerzuhrComponent } from './herzuhr/herzuhr.component';
-import { SchachuhrComponent } from './schachuhr/schachuhr.component';
+import { HerzuhrComponent } from './components/herzuhr/herzuhr.component';
+import { SchachuhrComponent } from './components/schachuhr/schachuhr.component';
 
 const routes: Routes = [
   { path: 'liebe', component: HerzuhrComponent },

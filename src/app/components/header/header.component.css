@@ -1,0 +1,41 @@
+.header-div {
+  display: flex;
+  padding: 3%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.header-div img {
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.header-div nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.header-div nav a {
+  position: relative;
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.header-div nav a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.header-div nav a:hover::after {
+  width: 100%;
+}
