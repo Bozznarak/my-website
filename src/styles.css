@@ -4,7 +4,15 @@
   outline: none;
   border: none;
   box-sizing: border-box;
+  color: white;
 }
+
+@font-face {
+  font-family: poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
 body {
   background-color: #181818;
+  font-family: poppins;
 }

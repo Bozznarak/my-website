@@ -9,6 +9,7 @@ import { SettingsOverlayComponent } from './components/schachuhr/settings-overla
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/header/header.component';
+import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HeaderComponent } from './components/header/header.component';
     SchachuhrComponent,
     SettingsOverlayComponent,
     HeaderComponent,
+    ContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, NgbModule],
   providers: [ReactiveFormsModule],

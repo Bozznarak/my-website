@@ -3,7 +3,8 @@
   padding: 3%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid white;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .header-div img {

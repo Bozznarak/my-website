@@ -1,0 +1,62 @@
+.contentDiv {
+  padding: 3%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.textContent {
+  z-index: 2;
+}
+
+.imageContent img {
+  width: 100%;
+  z-index: 1;
+}
+
+.contentDiv2 {
+  padding: 3%;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+hr {
+  border-bottom: 1px solid white;
+}
+
+.headline {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.25rem;
+}
+
+.card {
+  background-color: #27272a;
+  border-radius: 15px;
+  text-align: center;
+  padding: 2%;
+  color: white;
+  border: 2px solid transparent;
+  transition: 0.3 ease all;
+}
+
+.card:hover {
+  border-color: white;
+  background-color: #323232;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
